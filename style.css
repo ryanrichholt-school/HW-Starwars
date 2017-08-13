@@ -1,0 +1,73 @@
+/*
+.row {
+	background-color: rgba(255, 230, 230, 0.5);
+	border: 1px dashed red;
+	stroke-dashoffset: 10;
+}
+
+[class*="col-"]{
+	background-color: rgba(230, 230, 255, 0.5);
+	border: 1px dashed blue;
+	stroke-dashoffset: 20;
+}
+*/
+
+html { 
+  background: url(assets/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	background: transparent;
+	color: rgb(245, 245, 245);
+}
+
+
+.logo {
+	margin-top: 30px;
+}
+
+.messages {
+	text-align: center;
+	font-size: 48px;
+}
+
+.attack-btns, .start-btns {
+	text-align: center;
+	padding: 10px;
+}
+
+
+.card {
+	text-align: center;
+	overflow: auto;
+	border-radius:10px;
+	border: 4px solid #010101;
+	padding-top: 10px;
+}
+
+.light {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 153, .6) 0%, rgba(0, 0, 0, 1) 100%);
+	
+}
+
+.dark {
+	background-image: linear-gradient(to bottom, rgba(155, 0, 0, .6) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+.battlefield {
+	overflow: auto;
+	padding: 5px;
+}
+
+.actions {
+	text-align: center;
+}
+
+.messages {
+	text-align: center;
+}
